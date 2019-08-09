@@ -2,7 +2,7 @@
 
 TARGET_DIR="~/Library/Rime/"
 
-if [ -z $TARGET_DIR ]; then
+if [ ! -z $TARGET_DIR ]; then
     GIT_DIR="~/.dot-squirrel"
 
     if [ -z $GIT_DIR ]; then
