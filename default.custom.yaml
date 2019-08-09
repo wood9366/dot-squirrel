@@ -1,0 +1,18 @@
+patch:
+  app_options:
+    org.gnu.Emacs:
+      ascii_mode: true
+    com.apple.Xcode:
+      ascii_mode: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred-3:
+      ascii_mode: true
+
+  ascii_composer:
+    switch_key:
+      Caps_Lock: noop
+      Shift_L: clear
+      Shift_R: noop
+      Control_L: noop
+      Control_R: noop
