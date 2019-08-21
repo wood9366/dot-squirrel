@@ -8,10 +8,13 @@ patch:
       ascii_mode: true
     com.runningwithcrayons.Alfred-3:
       ascii_mode: true
+    com.apple.automator.AlacrittyNew:
+      ascii_mode: true
 
   ascii_composer:
+    good_old_caps_lock: true
     switch_key:
-      Caps_Lock: clear
+      Caps_Lock: noop
       Shift_L: noop
       Shift_R: noop
       Control_L: noop
