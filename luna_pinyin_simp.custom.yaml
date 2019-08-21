@@ -1,5 +1,5 @@
 patch:
-  switches/@0/reset: 1
+  switches/@0/reset: 0
 
   key_binder/bindings:
     - { accept: Return, send: Escape, when: composing }
@@ -9,7 +9,6 @@ patch:
     - { accept: period, send: Page_Down, when: has_menu }
     - { accept: Return, send: Return, when: composing }
     - { accept: "Control+w", send: Escape, when: composing }
-    - { accept: "Alt+space", toggle: ascii_mode, when: always }
 
   style:
     horizontal: true
