@@ -1,5 +1,5 @@
 patch:
-  switches/@0/reset: 0
+  switches/@0/reset: 1
 
   key_binder/bindings:
     - { accept: Return, send: Escape, when: composing }
