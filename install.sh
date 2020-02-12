@@ -10,7 +10,7 @@ if [ ! -z $TARGET_DIR ]; then
     fi
 
     ln -s $GIT_DIR/default.custom.yaml $TARGET_DIR/
-    ln -s $GIT_DIR/luna_pinyin_simp.custom.yaml $TARGET_DIR/
+    ln -s $GIT_DIR/pinyin_abc.custom.yaml $TARGET_DIR/
 else
     echo "no squirrel found"
 fi

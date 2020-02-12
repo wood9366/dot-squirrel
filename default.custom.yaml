@@ -1,4 +1,7 @@
 patch:
+  schema_list:
+    - schema: pinyin_abc
+
   app_options:
     org.gnu.Emacs:
       ascii_mode: true
