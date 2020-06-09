@@ -10,7 +10,7 @@ schema:
 
 switches:
   - name: ascii_mode
-    reset: 0
+    reset: 1
   - name: full_shape
     reset: 0
   - name: abc_zh_simp
